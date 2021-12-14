@@ -1,0 +1,75 @@
+<<< 104 route >>>
+
+Formula:
+
+1) justTime - startTime = time
+2) time / interval = routes_num
+
+For eg:
+
+startTime = 5:00
+justTime = 14:50
+interval = 10
+
+time = (14:50)-(5:00) #9:50
+time = 9*60 + 50
+time = 590
+
+routes_num = 590 / 10
+routes_num = 59 
+
+PS: agar intervalga bo`lganda  qoldiq qolmasa avtobuslarni birinchi bekatdan chiqish vaqti bo`ladi
+
+=================
+
+station = B
+
+Endi yuqoridagi vaqt bo`yicha avtobuslar bekatlardan chiqmoqda ya'ni 
+
+D bekat tomon harakatlanayotgan avtobus B bekatga yetib kelishi uchun 3 daqida talab etiladi (A va B bekatlar orasidagi vaqt). Sababi avtobu endi birinchi bekatdan harakatlana boshladi.
+
+huddi shu holat bo`yicha:
+A bekat tomon harakatlanayotgan avtobus B bekatga yetib kelishi uchun 9 daqida talab etiladi (D bekatdan B bekatgacha bo`lgan vaqt ya'ni 4+5=9 ga teng)
+
+
+*******************************************
+
+<<< 437 route >>>
+
+time = 14:50 - 5:10
+time = 9:40
+time = 9*60+40
+time = 580
+
+routes_num = 580 / 5
+routes_num = 116
+
+============
+
+station = B 
+
+Qatnovlar sonida qoldiq qolmadi (116) 
+Endi 
+
+bu holatda sal boshqacharoq masalan F yo`nalishi bo`yicha B bekatga eng yaqin avtobus 4 daqidaqa keladi 
+sababi E va A bekatlar orasidagi vaqt intervaldan katta ( 6 > 5 | 6-5 = 1)
+shunda B bekatga 3 + 1 = 4 daqiqada keladi (bu yerda 1 6-5=1 dagi qoldiq)
+
+E yo`nalishi bo`yicha B bekatgacha 0 daqida (sababi interval va bekatlar orasidagi vaqt teng)
+
+
+//////////////////////////////////////////////////////////
+**********************************************************
+==========================================================
+
+
+time = 14:52 - 5:10
+time = 9:42
+time = 582
+
+routes_num = 582 / 5
+routes_num = 116 | 2
+
+
+
+
